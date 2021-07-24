@@ -49,15 +49,39 @@
   </nav>
 
   <div class="container">
-    <h1>About Me</h1>
-    <h2>대전사람 스미스입니다.</h2>
-    <p>HTML, CSS, JS DJANGO로 웹사이트 만들기를 좋아합니다.</p>
-    <a href="./index.html">첫 화면으로 가기</a>
-
-    <button onclick="whatTimeIsIt()">현재시각</button>
-    <hr>
-    <img src="imgs/MariaDB_colour_logo.svg.png" width="600px" alt="">
+    <div class="low">
+      <div class="col-9">
+        <h1>About Me</h1>
+        <h2>대전사람 스미스입니다.</h2>
+        <p>HTML, CSS, JS DJANGO로 웹사이트 만들기를 좋아합니다.</p>
+        <a href="./index.html">첫 화면으로 가기</a>
+        <button onclick="whatTimeIsIt()">현재시각</button>
+        <hr>
+      </div>
+      
+      <div class="col-3">
+        <img src="imgs/coding_cat.gif" width="300px" class="img-fluid">
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="col-sm col-lg-6 bg-info">
+        <img src="imgs/image_a.jpg" width="600"class="img-fluid">
+      </div>
+      <div class="col-sm col-lg-3 bg-primary">
+        <img src="imgs/image_b.jpg" width="600"class="img-fluid">
+      </div>
+      <div class="col-sm col-lg-3 bg-warning">
+        <img src="imgs/image_c.jpg" width="600" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
